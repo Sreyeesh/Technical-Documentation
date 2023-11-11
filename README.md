@@ -1,6 +1,4 @@
-Certainly! Creating a README file is a great way to provide an overview and guidance for your project. Below is a template for a README file for your technical documentation page project. You can customize it as needed to fit the specifics of your project.
 
----
 
 # Technical Documentation Page
 
