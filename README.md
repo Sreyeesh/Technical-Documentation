@@ -1,6 +1,4 @@
-Certainly! Creating a README file is a great way to provide an overview and guidance for your project. Below is a template for a README file for your technical documentation page project. You can customize it as needed to fit the specifics of your project.
 
----
 
 # Technical Documentation Page
 
@@ -10,7 +8,6 @@ This project involves creating a technical documentation page that demonstrates 
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript
 
 ## Installation
 To view the project, clone the repository and open the `index.html` file in a web browser.
@@ -25,4 +22,3 @@ Open `index.html` in your web browser.
 The technical documentation page can be used as a reference guide for various programming concepts. Each section in the navigation bar corresponds to a section in the main content area, providing quick access to the desired content.
 
 ## Live Demo
-https://sreyeesh.github.io/Technical-Documentation/
