@@ -8,7 +8,6 @@ This project involves creating a technical documentation page that demonstrates 
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript
 
 ## Installation
 To view the project, clone the repository and open the `index.html` file in a web browser.
