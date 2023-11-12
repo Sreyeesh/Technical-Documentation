@@ -1,91 +1,114 @@
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    padding: 0;
+/* Basic reset */
+body, h1, h2, p, figure, figcaption {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#navbar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 220px;
-    height: 100%;
+/* Apply a Linux-inspired color scheme */
+body {
     background-color: #333;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
-#navbar header {
-    color: white;
-    background-color: #4CAF50;
-    padding: 15px;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-.nav-link {
-    display: block;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    border-bottom: 1px solid #555;
-}
-
-.nav-link:hover {
-    background-color: #555;
+    font-family: 'Arial', sans-serif;
     color: #f0f0f0;
+    line-height: 1.6;
 }
 
-#main-doc {
-    margin-left: 240px;
+/* Style the main container */
+#main {
+    max-width: 900px;
+    margin: 20px auto;
     padding: 20px;
-    background-color: #f7f7f7;
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 4px;
 }
 
-.main-section {
-    background-color: white;
-    padding: 15px;
+/* Style the title */
+#title {
+    text-align: center;
     margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
+    color: #78C659;
 }
 
-.main-section header {
-    color: #333;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #4CAF50;
+/* Style the image and its container */
+#img-div {
+    text-align: center;
+    margin: 20px 0;
 }
 
-p {
-    margin-bottom: 10px;
+#image {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #78C659;
 }
 
-ul {
-    margin-left: 20px;
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #aaa;
 }
 
-code {
-    display: block;
-    background-color: #eee;
+/* Style the tribute info section */
+#tribute-info {
+    margin: 20px 0;
     padding: 10px;
-    margin: 10px 0;
-    border-left: 3px solid #4CAF50;
-    font-family: 'Courier New', monospace;
-    overflow-x: auto;
+    background: #2B2B2B;
+    border-radius: 4px;
+    line-height: 1.7;
 }
 
-/* Media query for screens smaller than 600px */
+/* Style the link */
+#tribute-link {
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0;
+    padding: 10px 20px;
+    background: #78C659;
+    color: #222;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the link */
+#tribute-link:hover {
+    background: #66a04b;
+}
+
+/* Media query for screens up to 600px wide */
 @media screen and (max-width: 600px) {
-    #navbar {
-        width: 100%;
-        height: auto;
-        position: static;
+    body {
+        font-size: 14px;
     }
-    #main-doc {
-        margin-left: 0;
+
+    #main {
         padding: 10px;
+    }
+
+    #title {
+        font-size: 24px;
+    }
+
+    #img-div {
+        margin: 10px 0;
+    }
+
+    #image {
+        max-width: 80%;
+        border-width: 2px;
+    }
+
+    #img-caption {
+        font-size: 14px;
+    }
+
+    #tribute-info {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    #tribute-link {
+        padding: 8px 16px;
+        font-size: 16px;
     }
 }
