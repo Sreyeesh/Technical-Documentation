@@ -22,3 +22,4 @@ Open `index.html` in your web browser.
 The technical documentation page can be used as a reference guide for various programming concepts. Each section in the navigation bar corresponds to a section in the main content area, providing quick access to the desired content.
 
 ## Live Demo
+https://sreyeesh.github.io/Technical-Documentation/
